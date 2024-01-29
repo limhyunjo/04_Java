@@ -14,6 +14,7 @@ public class JavaTest {
   * 자바 프로그램을 실행 시키기 위햐서 반드시 필요한 구문(기능)
   * </p>
  * @param args
+ * */
 
 public static void main(String[]args) {
 	
