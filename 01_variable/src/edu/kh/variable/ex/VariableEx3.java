@@ -87,9 +87,9 @@ public class VariableEx3 {
 	 //강제 형변환 확인5
 	 //-> 문자 (char) <-> 유니코드 (int)
 	 // ''-> 홑 따옴표는 char 자료형
-	 System.out.println("A의 번호 :" + (int)'A');
+	 System.out.println("A의 번호 :" + (int)'A');// 65 
 	 
-	 System.out.println("84번의 문자 :" + (char)84);
+	 System.out.println("84번의 문자 :" + (char)84);//T
 	 
 	 //------------------------------------------------------
 	 
