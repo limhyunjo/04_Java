@@ -73,7 +73,7 @@ public class Account {
 	public void deposit(long amount) {
 		balance +=amount;// 전달받은 금액(매개변수)을 누적
 		System.out.println(name +"의 현재 잔액 :"+ balance);
-	}
+	}// 객체가 가진 속성값을 변화시킴 ->간접 접근
 	
 	/**
 	 * 비밀번호와 출금할 금액을 전달 받아와
