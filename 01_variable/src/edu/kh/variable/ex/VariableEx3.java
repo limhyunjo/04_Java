@@ -48,7 +48,7 @@ public class VariableEx3 {
 	 // 강제 형변환 확인 3
 	 //-> 의도적으로 강제 형변환
 	 System.out.println(123);// (int) 123
-	 System.out.println((double)123);//-> (double) 123
+	 System.out.println((double)123);//-> (double) 123.0
 	 //-> 작은 것을 크게 바꾸는 것도 가능
 	 
 	 
@@ -62,7 +62,7 @@ public class VariableEx3 {
 	 // 연산의 결과에서는 값 처리 원칙이 우선이어서
 	 //계산 시에는 같은 자료형으로 연산되지만 결과는 2가 나온다
 	 
-	 System.out.println( (double)num3/ num4 );
+	 System.out.println( (double) (num3/ num4) );
 	 // (double)(5/2) == 2.0
 	
 	 System.out.println( (double)num3/ (double)num4 );

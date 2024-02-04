@@ -59,7 +59,7 @@ public class VariableEx1 {
       char temp1 = '가';
       float temp2 = 1.23f;
       
-      // float temp2 = 1.23; (숫자 뒤 f 안붙였을때)
+      // float temp2 = 1.23; (숫자 뒤 f 안 붙였을 때)
       // Type mismatch: cannot convert from double to float
       
       double temp3 = 3.12;
@@ -68,7 +68,7 @@ public class VariableEx1 {
       
       /* String (문자열) 
        * - 기본 자료형이 아닌 객체
-       * - String을 저장하는 변수는 객체 대신 주소를 저장하기 때무네
+       * - String을 저장하는 변수는 객체 대신 주소를 저장하기 때문에
        *   "참조형" 이라고 한다
        *   
        * (저장된 주소에 위치한 객체를 참조)

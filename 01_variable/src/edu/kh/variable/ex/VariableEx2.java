@@ -27,7 +27,7 @@ public class VariableEx2 {
   // int result1 = num1 + num2;//-> 결과 변수가 int가 아닌 long으로 바꿔야 함
 	 long result1 = num1 + num2; //->  오류가 해결됨
 	 
-	 System.out.println("result1 : + result1");
+	 System.out.println("result1 : "+ result1);
 	 //Type mismatch: cannot convert from long to int
 	 // -> int + long
 	 //-> long + long으로 자동 형변환
@@ -52,7 +52,7 @@ public class VariableEx2 {
 	 // (long) 20L + (float) 3.14f
 	 // -> (float) 20.0f + (float) 3.14f 
 	 //(double) result3 = (float) 23.14f
-	//-> (double) result3 = (doubl) 23.14
+	//-> (double) result3 = (double) 23.14
 	
 		double result3 = num5+num6; // 오류 안 남 
 		System.out.println("result3 :"+ result3);

@@ -43,7 +43,7 @@ public class PrintEx1 {
 	  */
 		// 선택하고 shift + f2 -> 설명 볼 수 있음
 		System.out.print("이름 : ");
-		System.out.println("임현조");
+		System.out.print("임현조");
 		
 		System.out.println(" 입니다 ");
 		System.out.println(" 오늘도 힘든 자바 공부 ");
@@ -66,7 +66,7 @@ public class PrintEx1 {
 		
 		//20240125  홍길동        10000원    입금
 		//20240126  아파트 관리비 120000원    출금
-		//20240127  식자재마트       3000원    출금
+		//20240127  식자재마트       3000원    출금 
 		
 		// \n == 개행 문자(줄바꿈)
 		System.out.printf("%8s  %-6s  %7d원 %s \n",
