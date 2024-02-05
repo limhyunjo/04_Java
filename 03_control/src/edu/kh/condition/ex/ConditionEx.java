@@ -41,7 +41,7 @@ public void method1() {
 	 System.out.print( "나이 :");
 	 int age= sc.nextInt();
 	 
-	 String result;
+	 String result;// 결과를 저장하기 위한 문자열 변수 선언 result 값들이 저장됨ㄴ
 	 
 	 if(age <= 13) 	 result = "어린이";
 	else if(age <= 18) result = "청소년";

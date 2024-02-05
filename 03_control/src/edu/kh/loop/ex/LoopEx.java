@@ -155,7 +155,7 @@ public class LoopEx {
 		int b= sc.nextInt();
 		
 		int min = Math.min(a, b);// 두 수중 작은 값을 반환
-		int max = Math.min(a, b);// 두 수중 큰 값을 반환
+		int max = Math.max(a, b);// 두 수중 큰 값을 반환
 		
 		for(int i=min; i<=max; i++) System.out.println(i);
     }
