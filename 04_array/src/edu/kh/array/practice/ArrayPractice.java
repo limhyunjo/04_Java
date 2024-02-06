@@ -43,7 +43,7 @@ public class ArrayPractice {
 		
 		for (int i = 8; i >= 0; i--) {
 			arr[i] = i + 1;
-			System.out.print(arr[i] + " ");
+			System.out.print(arr[i] +" "); 
 			//
 			if (i % 2 == 1) {
 				sum += arr[i];

@@ -1,3 +1,5 @@
+
+
 package edu.kh.loop.ex;
 
 import java.util.Scanner;
@@ -10,6 +12,7 @@ public class LoopEx3 {
  * 문자열 한 글자씩 출력하기
  */
 public void method1() {
+	
 	
 	//문자열.charAt(인덱스): 인덱스번째 문자를 하나 얻어와 반환
 	
