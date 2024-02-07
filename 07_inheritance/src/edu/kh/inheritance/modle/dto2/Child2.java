@@ -2,7 +2,11 @@ package edu.kh.inheritance.modle.dto2;
 
 import edu.kh.inheritance.modle.dto.Parent;
 
-public class Child2 extends Parent {
+//final 클래스 -> 상속 불가
+// - 제공되는 클래스 그대로 사용해야 되는 경우
+//ex) String // Java에서 만든 클래스
+
+public final class Child2 extends Parent {
 	//다른 패키지에서 가져오기 때문에 import 해야함
 	//public과 protected 사용 가능
 	
