@@ -12,7 +12,7 @@ public class OperatorRun {
   OperatorEx ex= new OperatorEx();// 가져온 클래스를 이용해 객체 생성
   
   // console 창에 (다른 클래스에 작성된 기능)이 가져와진다
-  // ex.test();
+  // ex.test();// 객체 ex에 속한 메서드 method()를 호출하는 코드
   //ex.method1(); // 3의 배수 확인
 	
 	//콘솔창에 아래처럼 뜸
