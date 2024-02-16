@@ -156,7 +156,7 @@ public void method4() {
 	// 참조 변수가 부모라서 갤럭시 객체 안의 부모만 참조 가능
 	
 	//s1.toString() 작성 시 
-	//SmartPhone의 soString()이 호출된다고 표시됨 == 정적 바인딩
+	//SmartPhone의 toString()이 호출된다고 표시됨 == 정적 바인딩
 	//(참조 변수가 부모 타입이니까 부모 부분의 메서드 호출)
 	
 	//하지만 실행을 해보니.....

@@ -21,8 +21,8 @@ public class PolyRun {
   
   // service.method7();
     
-  //service.method8();
+  service.method8();
     
-  service.method9();
+  //service.method9();
   }
 }
