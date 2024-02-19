@@ -19,6 +19,7 @@ public class Dog extends Animal{
 	 
 	}
 	
+
 	//매개 변수 생성자
 	public Dog(String type, boolean harnessl) {
 		super(type);
