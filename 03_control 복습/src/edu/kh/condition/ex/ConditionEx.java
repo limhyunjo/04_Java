@@ -76,7 +76,32 @@ public void method2() {
 	else result ="잘못 입력";
 	 System.out.println(result);
 	 
+	//순서 바꿔서 생각
+	//if(month < 1||month >12) result = "잘못 입력";
+	//else if(month >= 3 && month <= 5) result = "봄";
+	//else if(month >= 6 && month <= 8) result = "여름";
+	//else if(month >= 9 && month <= 11)result = "가을";
+	//else result ="겨울";
+	 
 	 
 	 
  }
+ 
+ // 유지 보수하기 좋은 코드
+ 
+ 
+ public void mehtod3b() {
+	 System.out.print("달(월) 입력 :");
+	 int month = sc.nextInt();
+	 
+	 if(month <1 || month >12) {
+		 System.out.println("잘못 입력");
+		 return; //메서드를 종료하고 호출한 곳으로 돌아감
+	 }
+	 
+	 String result;
+	 if(month >= 3 && month <= 5) result="봄";
+	 else if(month >=6&& month <=8) result ="여름";
+ }
+ 
 }
