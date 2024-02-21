@@ -54,7 +54,8 @@ public class Supplement1 {
 		System.out.println("-----------------------");
 		for(int i=0 ; i<fruitsList.size() ; i++) {//fruitsList.length란 이름의 변수가 없음
 			//List는 collection 배열이고 length가 아닌 size 사용 length -> size()
-			System.out.println(fruitsList.get(i));// 
+			System.out.println(fruitsList.get(i));
+			// fruitsList는 배열 처럼 index로 요소에 접근할 수 없음 List는 get() 메서드를 사용해야 한다
 		}
 		
 	}

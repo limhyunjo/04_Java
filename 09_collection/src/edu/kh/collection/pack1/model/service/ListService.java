@@ -61,7 +61,7 @@ public class ListService {
 		
 		System.out.println("저장된 개수 :" + list.size());//5
 		
-		//0번 부터 List에 저장된 개수 미만까지 1 씩 증가하마 반복
+		//0번 부터 List에 저장된 개수 미만까지 1 씩 증가하며 반복
 		// (0~마지막 인덱스)
 		for(int i=0; i< list.size(); i++) {
 			System.out.printf("%d 번째 인덱스 :", i);
