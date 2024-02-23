@@ -66,6 +66,7 @@ public class TodoListDAOImpl implements TodoListDAO{
 			todoList.add( new Todo("CSS 공부" , "수업 내용 복습하기", false, LocalDateTime.now()) );
 			todoList.add( new Todo("HTML 공부", "수업 내용 복습하기", false, LocalDateTime.now()) );
 			
+			
 			try {
 				// 객체 출력 스트림 생성 -> 파일이 없다면 자동 생성
 				oos = new ObjectOutputStream(new FileOutputStream(FILE_PATH));
