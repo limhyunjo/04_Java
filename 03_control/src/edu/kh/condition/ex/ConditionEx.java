@@ -21,6 +21,7 @@ public void method1() {
 	  int age =sc.nextInt();
 	  
 	  if(age>= 19) {
+		  
 		  System.out.println("성인");
 		  
 	  }else {

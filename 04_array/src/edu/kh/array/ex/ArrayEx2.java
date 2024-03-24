@@ -65,7 +65,7 @@ public class ArrayEx2 {
 		System.out.println("===================================");
 		System.out.println("arr1 : " + Arrays.toString(arr1)); // 원본
 		System.out.println("arr2 : " + Arrays.toString(arr2)); // for		
-		System.out.println("arr3 : " + Arrays.toString(arr3)); // arraycoy
+		System.out.println("arr3 : " + Arrays.toString(arr3)); // arraycopy
 		
 	
 	}
